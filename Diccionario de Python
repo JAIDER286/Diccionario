@@ -1,0 +1,22 @@
+None
+print("hola, ¿palabra necesitas saber?")
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso.",
+            "LOL": "Una respuesta común a algo gracioso.",
+            "PYTHOM": "Es un lenguaje de programacion de codigo abierto, orientando a objetos.",
+            "DICCIONARIO": "Se utiliza para buscar el significado de una palabra.",
+            "BUCLE": "Nos ayudan a ejecutar un bloque de codigo repetitivamente.",
+            "INPUT": "Te permite pedir la informacion al usuario y usarla en el codigo.",
+            "PRINT": "sirve para imprimir textos, números y otro objetos en la pantalla.",
+            "VARIABLES": "son nombres que refiere a un luegar de la memoria donde se almacenan valores de datos.",
+            }
+
+while True:
+    word = input("Escribe una palabra que no entiendas de python (¡con mayúsculas!): ")
+    if word in meme_dict.keys():
+        # ¿Qué debemos hacer si se encuentra la palabra?
+        print(meme_dict[word])
+  
+    else:
+        # ¿Qué hacer si no se encuentra la palabra?
+        print("no hemos encontrado esta palabra")
